@@ -102,3 +102,4 @@ export function ban(player, target, time, reason = "Without a reason") {
         by: `${player.name}`
     }
     banDB.set(`${target}`, banSave)
+}
